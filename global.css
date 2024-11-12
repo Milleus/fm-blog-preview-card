@@ -254,6 +254,7 @@ textarea:not([rows]) {
 .card {
   background-color: var(--clr-white);
   padding: 1.5rem;
+  border: 1px solid var(--clr-gray-950);
   border-radius: 20px;
   box-shadow: 8px 8px 0 0 var(--clr-black);
   max-width: 20.4375rem;
