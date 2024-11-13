@@ -39,9 +39,9 @@
   --ff-vf-serif: "Figtree VF", serif;
   --ff-serif: "Figtree", serif;
 
-  --fs-300: 12px;
-  --fs-400: 14px;
-  --fs-600: 20px;
+  --fs-300: 0.75rem;
+  --fs-400: 0.875rem;
+  --fs-600: 1.25rem;
 
   --lh-300: 1.5;
   --lh-400: 1.5;
@@ -53,9 +53,9 @@
 
 @media (min-width: 30rem) {
   :root {
-    --fs-300: 14px;
-    --fs-400: 16px;
-    --fs-600: 24px;
+    --fs-300: 0.875rem;
+    --fs-400: 1rem;
+    --fs-600: 1.5rem;
   }
 }
 
