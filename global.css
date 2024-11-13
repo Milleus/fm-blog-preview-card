@@ -240,13 +240,13 @@ textarea:not([rows]) {
   padding: 1.5rem;
 }
 
-.layout > main {
+main {
   grid-area: main;
   display: grid;
   place-items: center;
 }
 
-.layout > footer {
+footer {
   grid-area: footer;
   align-self: end;
 }
@@ -258,6 +258,7 @@ textarea:not([rows]) {
   border-radius: 20px;
   box-shadow: 8px 8px 0 0 var(--clr-black);
   max-width: 20.4375rem;
+  position: relative;
 }
 
 @media (min-width: 30em) {
@@ -270,7 +271,7 @@ textarea:not([rows]) {
   border-radius: 10px;
 }
 
-.card-content > .card-badge {
+.card-badge {
   border-radius: 4px;
   background-color: var(--clr-yellow-400);
   color: var(--clr-gray-950);
@@ -280,14 +281,20 @@ textarea:not([rows]) {
   padding: 0.25rem 0.75rem;
 }
 
-.card-content a {
+.card-link {
   text-decoration: none;
   color: currentColor;
 }
 
-.card-content a:hover,
-.card-content a:focus {
+.card-link:hover,
+.card-link:focus {
   color: var(--clr-yellow-400);
+}
+
+.card-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
 
 .card-author {
@@ -296,12 +303,12 @@ textarea:not([rows]) {
   gap: 0.75rem;
 }
 
-.card-author > img {
+.card-author-image {
   max-width: 32px;
   aspect-ratio: 1;
 }
 
-.card-author > p {
+.card-author-name {
   font-size: 0.875rem;
   font-weight: var(--fw-800);
   color: var(--clr-gray-950);
