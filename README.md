@@ -51,6 +51,7 @@ Mobile view
 
 - Familiarisation with importing local variable fonts with fallback
 - Use of the datetime attribute of a <time> element to describe the publication date and time of an <article> element
+- Difference between aria-label, aria-labelledby and aria-describedby
 
 ### Useful resources
 
@@ -58,6 +59,7 @@ Mobile view
 - [Variable font fallback](https://pimpmytype.com/variable-font-fallback/)
 - [Article element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 - [Time element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
+- [Aria Labels and Descriptions](https://benmyers.dev/blog/aria-labels-and-descriptions/)
 
 ## Author
 
